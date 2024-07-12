@@ -1,13 +1,16 @@
 
-import React from "react";
-import './../styles/App.css';
+import React, { Component } from 'react'
+import Progress from './Progress'
 
-const App = () => {
-  return (
-    <div>
-        {/* Do not remove the main div */}
-    </div>
-  )
+export class App extends Component {
+  render() {
+    return (
+      <div>
+     <Progress />
+      </div>
+    )
+  }
 }
 
 export default App
+
