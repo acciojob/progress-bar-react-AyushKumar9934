@@ -32,7 +32,7 @@ class Progress extends Component {
     return (
       <div>
         <div id="barOuter" style={{width:"200px",height:"30px",backgroundColor:"lightgray"}}>
-        <div id="barInner" style={{width:`${this.state.progress}%`,height:"30px",backgroundColor:"blue"}}></div></div>{`${this.state.progress}%`}
+        <div id="barInner" style={{width:`${this.state.progress}%`,height:"30px",backgroundColor:"blue"}}></div></div><p>{`${this.state.progress}%`}</p>
       </div>
     )
   }
